@@ -92,6 +92,7 @@ Main {
     background-color: lightblue;
     /* Make main element take up surplus space to push footer to the bottom of the page */
     flex: 1 0 auto;
+    margin-top: 47px;
     
 }
 
