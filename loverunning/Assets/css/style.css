@@ -217,6 +217,14 @@ main {
   color: #3a3a3a;
 }
 
+
+/* large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+  #photos{
+    column-count: 2;
+    column-gap: 0;
+  }
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -275,6 +283,12 @@ main {
     text-align: end;
     align-self: flex-end;
   }
+
+  /* Gallery page */
+  #photos {
+    column-count: 3;
+    column-gap: 0;
+  }
 }
 
 /* Media Queries: Laptop screens and upwards(992px and up)*/
@@ -282,7 +296,14 @@ main {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
+
+    /* Gallery page */
+    #photos {
+      column-count: 4;
+      column-gap: 0;
+    }
 }
+
 
 /* Media Queries: Large screens and upwards (1200px and up) */
 @media screen and (min-width: 1200px) {
